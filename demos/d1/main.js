@@ -8,6 +8,7 @@ setup = function() {
 
 draw = function() {
   fill(mouseIsPressed ? 0 : 255);
+  stroke(mouseIsPressed ? 255 : 0);
   if (mouseX !== 0 && mouseY !== 0) {
     return ellipse(mouseX, mouseY, 80, 80);
   }
