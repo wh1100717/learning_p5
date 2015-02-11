@@ -1,0 +1,8 @@
+{
+  "name": "p5-learning",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1.11.1",
+    "p5js": "~0.4.0"
+  }
+}
